@@ -34,7 +34,7 @@ Displays the working tree status, showing the changes to be committed and the un
 
 - [ ] handle multiple files being added at the same time
     ```
-    go run main.go add LICENSE README.md
+    > go run main.go add LICENSE README.md
     File added: LICENSE
     ```
 
