@@ -1,6 +1,6 @@
 # vcs
 
-A simple version control system written in Go with the Cobra library for creating CLI applications in Go. Inspired by [Build Your Own VCS](https://ryanheathcote.com/git/build-your-own-vcs) by Ryan Heathcote.
+A simple version control system written in Go with the Cobra library for creating CLI applications. Inspired by [Build Your Own VCS](https://ryanheathcote.com/git/build-your-own-vcs) by Ryan Heathcote.
 
 # TODO
 
