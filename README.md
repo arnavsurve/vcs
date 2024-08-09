@@ -2,7 +2,58 @@
 
 A simple version control system written in Go with the [Cobra](https://github.com/spf13/cobra) library for creating CLI applications. Inspired by [Git](https://github.com/git/git) and [Build Your Own VCS](https://ryanheathcote.com/git/build-your-own-vcs) by Ryan Heathcote.
 
+# installation
+
+1. Clone this repository
+
+`$ git clone git@github.com:arnavsurve/vcs.git && cd vcs`  
+
+2. Compile the vcs binary
+
+`$ go build -o vcs`
+
+# usage
+
+```bash
+$ ./vcs
+A simple version control system
+
+Usage:
+  vcs [command]
+
+Available Commands:
+  add         Add a file to the repository
+  commit      Commit changes to the repository
+  completion  Generate the autocompletion script for the specified shell
+  help        Help about any command
+  init        Initialize a new repository
+  status      Show the working tree status
+
+Flags:
+  -h, --help     help for vcs
+  -t, --toggle   Help message for toggle
+
+Use "vcs [command] --help" for more information about a command.
+```
+
+
 # features
+
+### `help`
+
+Prints a help message for vcs or for a specific command.
+```bash
+./vcs --help
+
+# or
+
+./vcs [command] --help
+
+# or
+
+./vcs help [command]
+```
+
 
 ### `init`
 
